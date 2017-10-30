@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Evaluación Final</title>
+    <style>
+        body{
+            text-align: center;
+            background-color: cadetblue;
+        }
+        #menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        #menu li {
+            float: left;
+            border-right:1px solid #bbb;
+        }
+
+        #menu li:last-child {
+            border-right: none;
+        }
+
+        #menu li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        #menu li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        #menu .active {
+            background-color: darkblue;
+        }
+        .logo{
+            border: solid 1px black;
+            border-radius: 50%;
+        }
+        section{
+            background-color: azure;
+            width: 70vmax;
+            padding: 3vh;
+            margin: 3vh;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .row-info{
+            margin-top: 1vh;
+        }
+        .row-info:first-child{
+            margin-top: 5vh;
+        }
+        .social-icon{
+            display: inline-block;
+            margin-left: 1vmax;
+            margin-right: 1vmax;
+            background-size: cover;
+            width: 3.07vmax;
+            height: 3vmax;
+        }
+
+        .icon-facebook{
+            background-image: url("img/social-media/icon-facebook.png");
+        }
+        .icon-twitter{
+            background-image: url("img/social-media/icon-twitter.png");
+        }
+        .icon-instagram{
+            background-image: url("img/social-media/icon-instagram.png");
+        }
+        .icon-skype{
+            background-image: url("img/social-media/icon-skype.png");
+        }
+        .icon-linkedin{
+            background-image: url("img/social-media/icon-linkedin.png");
+        }
+        .icon-github{
+            background-image: url("img/social-media/icon-github.png");
+        }
+
+        .social-icon:hover{
+            cursor: pointer;
+            -webkit-filter: grayscale(1);
+            filter: grayscale(1);
+        }
+    </style>
+</head>
+<body>
+<img class="logo" src="img/logo.svg" alt="logo" width="150" height="100">
+<section id="titulo">
+<h1>HOJA DE VIDA</h1>
+    <hr>
+    <h2><div>
+        Andrés Monroy
+    </div></h2>
+    <div>
+        <div class="row-info">
+            <h2>Celular</h2>
+            <h3>322-2443623</h3>
+        </div>
+        <div class="row-info">
+            <h2>Correo</h2>
+            <h3>andresd55@hotmail.com</h3>
+        </div>
+        <div class="row-info">
+            <h2>Ciudad</h2>
+            <h3>Bogotá, Colombia</h3>
+        </div>
+        <div class="row-info">
+            <h2>Fecha de nacimiento</h2>
+            <h3>7 de Febrero de 1994</h3>
+        </div>
+    </div>
+</section>
+
+<section id="menu">
+    <h2>Menu</h2>
+    <hr>
+
+    <nav>
+        <ul class="">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="educacion.html">Educación</a></li>
+            <li><a href="experiencia.html">Experiencia</a></li>
+        </ul>
+    </nav>
+</section>
+
+<section id="video">
+    <h2>Experiencia</h2>
+    <hr>
+
+    <h3>Habilidades e Intereses</h3>
+    <video width="320" height="240" controls>
+        <source src="video/movie.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</section>
+
+<section id="audio">
+    <h2>Hobbies</h2>
+    <hr>
+
+    <h3>Hobbies y Actividades</h3>
+    <audio controls>
+        <source src="audio/horse.ogg" type="audio/ogg">
+    </audio>
+
+</section>
+
+<section id="footer">
+    <footer>
+        <h2>Contacto</h2>
+        <hr>
+
+        <p>Para mas información puedes comunicarte conmigo</p>
+            <p>322-2443623</p>
+            <p><a href="mailto:andresd55@hotmail.com">andresd55@hotmail.com</a>
+        </p>
+
+        <div>
+            <a href="https://www.facebook.com" target="_blank">
+            <div class="social-icon icon-facebook"></div>
+            </a>
+
+            <a href="https://twitter.com/?lang=es" target="_blank">
+            <div class="social-icon icon-twitter"></div>
+            </a>
+
+            <a href="https://www.instagram.com/?hl=es" target="_blank">
+            <div class="social-icon icon-instagram"></div>
+            </a>
+
+            <a href="https://www.skype.com/es/" target="_blank">
+            <div class="social-icon icon-skype"></div>
+            </a>
+
+            <a href="https://co.linkedin.com/" target="_blank">
+            <div class="social-icon icon-linkedin"></div>
+            </a>
+
+            <a href="https://github.com/" target="_blank">
+            <div class="social-icon icon-github"></div>
+            </a>
+
+        </div>
+    </footer>
+</section>
+
+</body>
+</html>
